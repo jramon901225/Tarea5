@@ -1,3 +1,52 @@
-@media (min-width: 360px) { 
-    min-height: 100vh;
- }
+main {
+    margin-top: 50px;
+}
+
+#profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+h5, p {
+    margin: 5px;
+    padding-bottom: 0px;
+    font-size: 12px;
+
+}
+
+p{
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+#contenedor {
+    border-radius: 15px;
+    text-align: justify;
+    
+}
+
+#contenedor-1 {
+    border-radius: 15px;
+    
+}
+#left-row {
+display: flex;
+justify-content: flex-end;
+}
+
+#container-logo {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+
+}
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    #contenedor-1{
+        visibility: hidden;
+    }
+}
