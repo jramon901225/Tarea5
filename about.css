@@ -1,0 +1,29 @@
+body {
+    background-color: turquoise;
+}
+
+p {
+text-align: justify;
+}
+
+#us p {
+    margin: 100px 0;
+}
+#abouttext {
+background-color: tomato;
+}
+
+#carouselExampleDark {
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    #us p {
+        margin: 0px;
+        padding: 0;
+        text-align: start;
+    }
+    #row-left {
+        margin: 5px;
+    }
+}
