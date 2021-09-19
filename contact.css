@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(174, 207, 131, 0.514);
+}
+
 main {
     margin-top: 50px;
 }
@@ -17,4 +21,34 @@ text-align: center;
 
 #button {
     text-align: center;
+}
+
+
+@media screen and (max-width: 720px) {
+    main {
+      margin-top: 10px;
+    }
+
+    #contenedor{
+        min-width: 50%;
+        padding: 10px;
+    }
+    #contenedor2 {
+        min-width: 75%;
+
+    }
+}
+
+  
+@media screen and (max-width: 1024px) {
+    main {
+      margin-top: 10px;
+    }
+    #contenedor{
+        min-width: 50%;
+        padding: 10px;
+    }
+    #contenedor2 {
+        min-width: 75%;
+    }
 }
